@@ -20,7 +20,7 @@ import { Fragment, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 const initialFormData = {
-  image: null,
+  image: "https://ii1.pepperfry.com/media/catalog/product/c/d/1100x1210/cdi-black-matt-finish-coffee-mugs---set-of-6--cdi-black-matt-finish-coffee-mugs---set-of-6--2i0e7h.jpg",
   title: "",
   description: "",
   category: "",
@@ -35,7 +35,7 @@ function AdminProducts() {
   const [openCreateProductsDialog, setOpenCreateProductsDialog] =
     useState(false);
   const [formData, setFormData] = useState(initialFormData);
-  const [imageFile, setImageFile] = useState(null);
+  const [imageFile, setImageFile] = useState("https://ii1.pepperfry.com/media/catalog/product/c/d/1100x1210/cdi-black-matt-finish-coffee-mugs---set-of-6--cdi-black-matt-finish-coffee-mugs---set-of-6--2i0e7h.jpg");
   const [uploadedImageUrl, setUploadedImageUrl] = useState("");
   const [imageLoadingState, setImageLoadingState] = useState(false);
   const [currentEditedId, setCurrentEditedId] = useState(null);

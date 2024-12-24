@@ -58,11 +58,11 @@ export const addProductFormElements = [
     name: "category",
     componentType: "select",
     options: [
-      { id: "men", label: "Men" },
-      { id: "women", label: "Women" },
-      { id: "kids", label: "Kids" },
-      { id: "accessories", label: "Accessories" },
-      { id: "footwear", label: "Footwear" },
+      { id: "mug", label: "mug" },
+      { id: "teacup", label: "teacup" },
+      { id: "keychains", label: "keychains" },
+      { id: "accessories", label: "accessories" },
+      { id: "wallposters", label: "wallposters" },
     ],
   },
   {
@@ -70,12 +70,12 @@ export const addProductFormElements = [
     name: "brand",
     componentType: "select",
     options: [
-      { id: "nike", label: "Nike" },
-      { id: "adidas", label: "Adidas" },
-      { id: "puma", label: "Puma" },
-      { id: "levi", label: "Levi's" },
-      { id: "zara", label: "Zara" },
-      { id: "h&m", label: "H&M" },
+      { id: "animeandmanga", label: "anime and manga" },
+      { id: "vintage", label: "vintage" },
+      { id: "abstruct", label: "abstruct" },
+      { id: "cartoon", label: "cartoon" },
+      { id: "merch", label: "merch" },
+      { id: "other", label: "other" },
     ],
   },
   {
@@ -113,28 +113,28 @@ export const shoppingViewHeaderMenuItems = [
     path: "/shop/listing",
   },
   {
-    id: "men",
-    label: "Men",
+    id: "mug",
+    label: "mug",
     path: "/shop/listing",
   },
   {
-    id: "women",
-    label: "Women",
+    id: "teacup",
+    label: "teacup",
     path: "/shop/listing",
   },
   {
-    id: "kids",
-    label: "Kids",
+    id: "keychains",
+    label: "keychains",
     path: "/shop/listing",
   },
   {
-    id: "footwear",
-    label: "Footwear",
+    id: "wallposters",
+    label: "wallposters",
     path: "/shop/listing",
   },
   {
     id: "accessories",
-    label: "Accessories",
+    label: "accessories",
     path: "/shop/listing",
   },
   {
@@ -145,37 +145,37 @@ export const shoppingViewHeaderMenuItems = [
 ];
 
 export const categoryOptionsMap = {
-  men: "Men",
-  women: "Women",
-  kids: "Kids",
-  accessories: "Accessories",
-  footwear: "Footwear",
+  mug: "mug",
+  teacup: "teacup",
+  keychains: "keychains",
+  accessories: "accessories",
+  wallposters: "wallposters",
 };
 
 export const brandOptionsMap = {
-  nike: "Nike",
-  adidas: "Adidas",
-  puma: "Puma",
-  levi: "Levi",
-  zara: "Zara",
-  "h&m": "H&M",
+  animeandmanga: "anime and manga",
+  vintage: "vintage",
+  abstruct: "abstruct",
+  cartoon: "cartoon",
+  merch: "merch",
+  other: "other",
 };
 
 export const filterOptions = {
   category: [
-    { id: "men", label: "Men" },
-    { id: "women", label: "Women" },
-    { id: "kids", label: "Kids" },
-    { id: "accessories", label: "Accessories" },
-    { id: "footwear", label: "Footwear" },
+    { id: "mug", label: "mug" },
+    { id: "teacup", label: "teacup" },
+    { id: "keychains", label: "keychains" },
+    { id: "accessories", label: "accessories" },
+    { id: "wallposters", label: "wallposters" },
   ],
   brand: [
-    { id: "nike", label: "Nike" },
-    { id: "adidas", label: "Adidas" },
-    { id: "puma", label: "Puma" },
-    { id: "levi", label: "Levi's" },
-    { id: "zara", label: "Zara" },
-    { id: "h&m", label: "H&M" },
+    { id: "animeandmanga", label: "anime and manga" },
+    { id: "vintage", label: "vintage" },
+    { id: "abstruct", label: "abstruct" },
+    { id: "cartoon", label: "cartoon" },
+    { id: "merch", label: "merch" },
+    { id: "other", label: "other" },
   ],
 };
 
