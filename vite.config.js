@@ -9,5 +9,8 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },server: {
+    host: '0.0.0.0', // Bind to all network interfaces
+    port: process.env.PORT || 5173, // Use PORT from environment or fallback to 5173
   },
 });
